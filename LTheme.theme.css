@@ -7,6 +7,7 @@
 * @invite not-set
 **/
 
+@import url(https://raw.githubusercontent.com/Krystianhuj/LTheme/3c44c09f5147996c83a39586d71e0f9438cb8dc3/LTheme.theme.css?token=GHSAT0AAAAAABXMIHZTQLEFTAQGOBYLJZFOYXPBCCQ);
 .closedFolderIconWrapper-3tRb2d, .folderIconWrapper-1oRIZr{
     background-color        :             #fff !important;
 }
@@ -26,7 +27,7 @@
     --interactive-hover: #dedede;
     --interactive-active: #fff;
     --interactive-muted: #575757;
-    --background-primary: #fff;
+    --background-primary: #181818;
     --background-primary-transparent: rgba(26, 26, 26, 0.6);
     --background-transparent-header: rgba(49, 49, 49, 0.5);
     --background-secondary: #202020;
