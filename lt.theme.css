@@ -7,7 +7,7 @@
 * @invite not-set
 **/
 
-
+/*Windows buttons*/
 .winButton-3UMjdg:not(:last-child) > svg {
   display: none;
 }
@@ -53,6 +53,16 @@
   height: 3px;
   
 }
+
+
+
+
+/*Server boost menu*/
+.theme-dark .perksModal-CLcR1c {
+    background-image: url(/assets/a49aa0a….svg);
+    background-color: #181818;
+}
+
 
 
 
