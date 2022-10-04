@@ -1,72 +1,13 @@
 /**
 * @name Lt
-* @version 4.2
+* @version 5.1
 * @author λοχικ#0001
 * @description Yes.
 * @source https://github.com/Krystianhuj/Lt
 * @invite not-set
 **/
 
-/*Windows buttons*/
-.winButton-3UMjdg:not(:last-child) > svg {
-  display: none;
-}
-.winButton-3UMjdg:not(:last-child)::after {
-  content: "";
-  border-radius: 50px;
-  pointer-events: fill;
-}
-.winButton-3UMjdg:hover {
-  background-color: var(--background-tertiary);
-}
 
-.winButtonClose-3Q8ZH5 {
-  margin-right: 5px;
-}
-.winButtonClose-3Q8ZH5::after {
-  padding: 6px;
-  background-image: url("https://cdn3.emoji.gg/emojis/7907_DND.png");
-  background-size: 100%;
-}
-.winButtonClose-3Q8ZH5:hover::after {
-  background-image: url("https://cdn3.emoji.gg/emojis/7907_DND.png");
-  background-size: 100%;
-}
-
-.winButtonMinMax-3RsPUg:nth-child(3):after {
-  padding: 6px;
-  background-image: url("https://cdn3.emoji.gg/emojis/3929_idle.png");
-  background-size: 100%;
-}
-.winButtonMinMax-3RsPUg:nth-child(3):hover::after {
-  padding: 6px;
-  background-image: url("https://cdn3.emoji.gg/emojis/3929_idle.png");
-  background-size: 100%;
-}
-.winButtonMinMax-3RsPUg:last-child {
-  color: #43b581;
-}
-.winButtonMinMax-3RsPUg:last-child:hover {
-  color: rgba(67, 181, 130, 0.8901960784);
-}
-.winButtonMinMax-3RsPUg:last-child rect {
-  height: 3px;
-  
-}
-
-
-
-
-/*Server boost menu*/
-.theme-dark .perksModal-CLcR1c {
-    background-color: #181818!important;
-}
-
-
-
-
-
-  
 .closedFolderIconWrapper-3tRb2d, .folderIconWrapper-1oRIZr{
     background-color        :             #fff !important;
 }
@@ -74,62 +15,21 @@
     color                   :             rgba(255, 255, 255, 0.9);
 }
 
-.guild-profile, .theme-dark, .theme-dark .theme-light, .userInfo-iCloHO, [aria-label="User Profile Modal"], [class^=profileBannerPreview], [class^=userPopout] {
-    --header-primary: #fff;
-    --header-secondary: #bdbdbd;
-    --text-normal: #dedede;
-    --text-muted: #787878;
-    --text-link: #00b0f4;
-    --text-positive: #4fdc7b;
-    --channels-default: #919191;
-    --interactive-normal: #bdbdbd;
-    --interactive-hover: #dedede;
-    --interactive-active: #fff;
-    --interactive-muted: #575757;
-    --background-primary: #181818;
-    --background-primary-transparent: rgba(26, 26, 26, 0.6);
-    --background-transparent-header: rgba(49, 49, 49, 0.5);
-    --background-secondary: #202020;
-    --background-secondary-alpha: rgba(24, 24, 24, 0.7);
-    --background-secondary-alt: #202020;
-    --background-tertiary: #202020;
-    --background-accent: hsl(0, 0%, 34%);
-    --background-floating: #1a1a1a;
-    --background-floating-alt: rgba(10, 10, 10, 0.8);
-    --background-mobile-primary: #3b3b3b;
-    --background-mobile-secondary: #202020;
-    --activity-card-background: #242424;
-    --background-modifier-hover: rgba(87, 87, 87, 0.2);
-    --background-modifier-active: rgba(87, 87, 87, 0.24);
-    --background-modifier-selected: rgba(100, 100, 100, 0.2);
-    --background-modifier-accent: rgba(255, 255, 255, 0.06);
-    --deprecated-text-input-border-hover: #050505;
-    --deprecated-text-input-border-disabled: #242424;
-    --deprecated-text-input-prefix: #dedede;
-    --channeltextarea-background: #202020;
-    --modal-background: #202020;
-
---deprecated-quickswitcher-input-background
-: rgba(120, 120, 120, 0.15);
-    --scrollbar-thin-thumb: #242424;
-    --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #4e4e4e;
-    --scrollbar-auto-track: #242424;
-    --scrollbar-auto-scrollbar-color-thumb: #242424;
-    --scrollbar-auto-scrollbar-color-track: #202020;
-    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
-    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
-    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
-    --elevation-high: 0 8px 16px rgba(0,0,0,0.44);
-    --bg-color: rgba(0, 0, 0, .25);
-    --bg-color-hover: rgba(0, 0, 0, .4);
-    --bg-color-selected: rgba(0, 0, 0, .6);
-    --search-bar: rgba(255, 255, 255, .05);
-    --search-bar-cat: rgba(255, 255, 255, 0.125);
+.childWrapper-1j_1ub{
+    background:#181818!important;
 }
 
-.theme-dark .container-2cd8Mz {
-    background-color: #de222200;
+.theme-dark .pageWrapper-2PwDoS {
+    background-color: transparent;
+    color: transparent;
+}
+
+.theme-dark .background-fkKrXt {
+    background-color: transparent;
+}
+
+.theme-dark .message-G6O-Wv {
+    background-color: #181818;
 }
 
 .footer-31IekZ {
@@ -173,23 +73,236 @@ background: radial-gradient(circle, rgba(32,32,32,1) 20%, rgba(255, 255, 255, 0.
     background-color:#181818!Important;
 }
 
+/*Windows buttons*/
+.winButton-3UMjdg:not(:last-child) > svg {
+    display: none;
+  }
+  .winButton-3UMjdg:not(:last-child)::after {
+    content: "";
+    border-radius: 50px;
+    pointer-events: fill;
+  }
+  .winButton-3UMjdg:hover {
+    background-color: var(--background-tertiary);
+  }
+  
+  .winButtonClose-3Q8ZH5 {
+    margin-right: 5px;
+  }
+  .winButtonClose-3Q8ZH5::after {
+    padding: 6px;
+    background-image: url("https://cdn3.emoji.gg/emojis/7907_DND.png");
+    background-size: 100%;
+  }
+  .winButtonClose-3Q8ZH5:hover::after {
+    background-image: url("https://cdn3.emoji.gg/emojis/7907_DND.png");
+    background-size: 100%;
+  }
+  
+  .winButtonMinMax-3RsPUg:nth-child(3):after {
+    padding: 6px;
+    background-image: url("https://cdn3.emoji.gg/emojis/3929_idle.png");
+    background-size: 100%;
+  }
+  .winButtonMinMax-3RsPUg:nth-child(3):hover::after {
+    padding: 6px;
+    background-image: url("https://cdn3.emoji.gg/emojis/3929_idle.png");
+    background-size: 100%;
+  }
+  .winButtonMinMax-3RsPUg:last-child {
+    color: #43b581;
+  }
+  .winButtonMinMax-3RsPUg:last-child:hover {
+    color: rgba(67, 181, 130, 0.8901960784);
+  }
+  .winButtonMinMax-3RsPUg:last-child rect {
+    height: 3px;
+    
+  }
+  
+  
+  
+  
+  /*Server boost menu*/
+  .theme-dark .perksModal-CLcR1c {
+      background-color: #181818!important;
+  }
+  
 
 
-
-
-.childWrapper-1j_1ub{
-    background:#181818!important;
-}
-
-.theme-dark .pageWrapper-2PwDoS {
-    background-color: transparent;
-    color: transparent;
-}
-
-.theme-dark .background-fkKrXt {
-    background-color: transparent;
-}
-
-.theme-dark .message-G6O-Wv {
-    background-color: #181818;
-}
+:root{
+    --b1: #181818;
+    --b2: #202020;
+    --w1: #fff;
+    }
+  
+  .platform-win .layer-86YKbF {
+    top: -1px;
+    padding-top: 0px;
+  }
+  
+  /*
+  .container-1NXEtd, .panels-3wFtMD  {
+    background-color: #000;
+  }
+  
+  border-style: groove;
+  border-color: #000;
+  */
+  
+  
+  
+  .sidebar-1tnWFu {
+    border-radius: 15px!important;
+    width: 310px;
+  }
+  .chat-2ZfjoI, .sidebar-1tnWFu {
+  border-style: solid;
+      border-color: var(--b1);
+      border-width: 5px;
+      border-radius: 15px;
+      background: var(--background-secondary);
+  }
+  
+  
+  .withTagAsButton-OsgQ9L, .withTagless-10ooWt {
+      min-width: 190px;
+  }
+  
+  
+  
+  
+  .guild-profile, .theme-dark, .theme-dark .theme-light, .userInfo-iCloHO, [aria-label="User Profile Modal"], [class^=profileBannerPreview], [class^=userPopout] {
+    
+    --header-secondary: #bdbdbd;
+    --text-normal: #dedede;
+    --text-muted: #787878;
+    --text-link: #00b0f4;
+    --text-positive: #4fdc7b;
+    --channels-default: #919191;
+    --interactive-normal: #bdbdbd;
+    --interactive-hover: #dedede;
+    --interactive-active: var(--w1);
+    --interactive-muted: #575757;
+    --background-primary: var(--b2);
+    --background-primary-transparent: rgba(26, 26, 26, 0.6);
+    --background-transparent-header: rgba(49, 49, 49, 0.5);
+    --background-secondary: var(--b2);
+    --background-secondary-alpha: rgba(24, 24, 24, 0.7);
+    --background-secondary-alt: var(--b2);
+    --background-tertiary: var(--b1); /*Paski do okoła góra/lewy panel*/
+    --background-accent: hsl(0, 0%, 34%);
+    --background-floating: #1a1a1a;
+    --background-floating-alt: rgba(10, 10, 10, 0.8);
+    --background-mobile-primary: #3b3b3b;
+    --background-mobile-secondary: #202020;
+    --activity-card-background: #242424;
+    --background-modifier-hover: rgba(87, 87, 87, 0.2);
+    --background-modifier-active: rgba(87, 87, 87, 0.24);
+    --background-modifier-selected: rgba(100, 100, 100, 0.2);
+    --background-modifier-accent: rgba(255, 255, 255, 0.06);
+    --deprecated-text-input-border-hover: #050505;
+    --deprecated-text-input-border-disabled: #242424;
+    --deprecated-text-input-prefix: #dedede;
+    --channeltextarea-background: var(--b2);
+    --modal-background: #202020;
+    --deprecated-quickswitcher-input-background
+    : rgba(120, 120, 120, 0.15);
+        --scrollbar-thin-thumb: #242424;
+        --scrollbar-thin-track: transparent;
+        --scrollbar-auto-thumb: #00000056;
+        --scrollbar-auto-track: transparent;
+        --scrollbar-auto-scrollbar-color-thumb: #242424;
+        --scrollbar-auto-scrollbar-color-track: #202020;
+        --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+        --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+        --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+        --elevation-high: 0 8px 16px rgba(0,0,0,0.44);
+        --bg-color: rgba(0, 0, 0, .25);
+        --bg-color-hover: rgba(0, 0, 0, .4);
+        --bg-color-selected: rgba(0, 0, 0, .6);
+        --search-bar: rgba(255, 255, 255, .05);
+        --search-bar-cat: rgba(255, 255, 255, 0.125);
+    }
+    
+    .theme-dark .container-2cd8Mz {
+        background-color: #de222200;
+    }
+    
+    .footer-31IekZ {
+        border-radius: 0 0 5px 5px;
+        background-color: #202020;
+    }
+    .lookFilled-yCfaCM.colorPrimary-2AuQVo {
+        color: var(--w1);
+        background-color: #181818;
+    }
+    
+    .circleIconButton-1VxDrg.selected-2r1Hvo {
+        color: var(--w1);
+        background: rgba(32, 32, 32, 0);
+    background: radial-gradient(circle, rgba(32,32,32,1) 20%, rgba(255, 255, 255, 0.055) 80%);
+    }
+    
+    .circleIconButton-1VxDrg { 
+            color: var(--w1);
+        background-color: #181818;
+    }
+    
+    
+    .theme-dark .autocomplete-3NRXG8 {
+        background-color: #202020;
+    }
+    
+    .categoryHeader-OpJ1Ly {
+        position: sticky;
+        top: 0;
+        padding: 0 8px;
+        background-color: #181818;
+    }
+    
+    .theme-dark .invite-3uuHYQ {
+        background: #181818;
+        border-color: #202020;
+    }
+    
+    .closedFolderIconWrapper-3tRb2d, .folderIconWrapper-1oRIZr {
+        background-color:#181818!Important;
+    }
+    
+    
+    
+    
+    
+    .childWrapper-1j_1ub{
+        background:#181818!important;
+    }
+    
+    .theme-dark .pageWrapper-2PwDoS {
+        background-color: transparent;
+        color: transparent;
+    }
+    
+    .theme-dark .background-fkKrXt {
+        background-color: transparent;
+    }
+    
+    .theme-dark .message-G6O-Wv {
+        background-color: #181818;
+    }
+  
+  
+  
+  
+  
+  .channel-1Shao0 {
+      position: relative;
+      max-width: initial;
+      margin-left: 8px;
+  }
+  
+  
+  
+  
+  
+  
