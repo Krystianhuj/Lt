@@ -154,7 +154,6 @@ background: radial-gradient(circle, rgba(32,32,32,1) 20%, rgba(255, 255, 255, 0.
   
   .sidebar-1tnWFu {
     border-radius: 15px!important;
-    width: 310px;
   }
   .chat-2ZfjoI, .sidebar-1tnWFu {
   border-style: solid;
@@ -164,11 +163,14 @@ background: radial-gradient(circle, rgba(32,32,32,1) 20%, rgba(255, 255, 255, 0.
       background: var(--background-secondary);
   }
   
-  
+  /*
   .withTagAsButton-OsgQ9L, .withTagless-10ooWt {
       min-width: 190px;
   }
-  
+.sidebar-1tnWFu {
+width: 310px;
+  }
+  */
   
   
   
