@@ -1,2 +1,3 @@
 Discord
-![obraz](https://user-images.githubusercontent.com/91804630/212498303-615f05eb-22f9-4b27-96ef-d2d3ceede871.png)
+![obraz](https://user-images.githubusercontent.com/91804630/212498322-fd15f55d-880d-4a70-9d17-225125d005d2.png)
+
