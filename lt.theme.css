@@ -33,7 +33,7 @@
 }
 
 .footer-31IekZ {
-    border-radius: 0 0 5px 5px;
+    
     background-color: #202020;
 }
 .lookFilled-yCfaCM.colorPrimary-2AuQVo {
@@ -79,7 +79,7 @@ background: radial-gradient(circle, rgba(32,32,32,1) 20%, rgba(255, 255, 255, 0.
   }
   .winButton-3UMjdg:not(:last-child)::after {
     content: "";
-    border-radius: 50px;
+    
     pointer-events: fill;
   }
   .winButton-3UMjdg:hover {
@@ -152,14 +152,8 @@ background: radial-gradient(circle, rgba(32,32,32,1) 20%, rgba(255, 255, 255, 0.
   
   
   
-  .sidebar-1tnWFu {
-    border-radius: 15px!important;
-  }
+ 
   .chat-2ZfjoI, .sidebar-1tnWFu {
-  border-style: solid;
-      border-color: var(--b1);
-      border-width: 5px;
-      border-radius: 15px;
       background: var(--background-secondary);
   }
   
@@ -232,7 +226,6 @@ width: 310px;
     }
     
     .footer-31IekZ {
-        border-radius: 0 0 5px 5px;
         background-color: #202020;
     }
     .lookFilled-yCfaCM.colorPrimary-2AuQVo {
